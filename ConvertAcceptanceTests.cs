@@ -156,7 +156,7 @@ namespace RomanNumeralsTDD20210815
 		}
 
 		private string Convert(int number) {
-			return RomanNumeralConverter.Convert(number);
+			return Converter.Convert(number);
 		}
 	}
 }

@@ -71,6 +71,6 @@ namespace RomanNumeralsTDD20210815
 			Assert.AreEqual("MMCMXCIX", this.Convert(2999));
 		}
 
-		private string Convert(int number) => RomanNumeralConverter.Convert(number);
+		private string Convert(int number) => Converter.Convert(number);
 	}
 }
